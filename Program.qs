@@ -5,6 +5,6 @@ namespace libq {
 
     @EntryPoint()
     operation SayHello() : Unit {
-        Message("Hello quantum world!");
+        return 69;
     }
 }
