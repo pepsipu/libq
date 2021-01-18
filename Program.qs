@@ -4,7 +4,7 @@ namespace libq {
     
 
     @EntryPoint()
-    operation SayHello() : Unit {
-        Message("Hello quantum world!");
+    operation SetupLibQ() : Unit {
+        Message("Hello, welcome to LibQ!");
     }
 }
